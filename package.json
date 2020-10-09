@@ -1,8 +1,8 @@
 {
-  "name": "graphql-directive",
-  "version": "0.2.1",
+  "name": "@serverfarm/graphql-directive",
+  "version": "0.3.0",
   "main": "lib/index.js",
-  "repository": "git@github.com:smooth-code/graphql-directive.git",
+  "repository": "git@github.com:serverfarm/graphql-directive.git",
   "author": "Greg Bergé <greg@smooth-code.com>",
   "keywords": [
     "graphql",
@@ -31,29 +31,29 @@
     ]
   },
   "peerDependencies": {
-    "graphql": "^0.11.0 || ^0.12.0"
+    "graphql": "15.3.0"
   },
   "dependencies": {
-    "graphql-tools": "^2.21.0"
+    "graphql-tools": "6.2.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.2",
-    "babel-jest": "^22.4.0",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "26.5.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "codecov": "^3.6.5",
-    "conventional-github-releaser": "^2.0.0",
-    "date-fns": "^1.29.0",
-    "eslint": "^4.18.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
+    "conventional-github-releaser": "3.1.5",
+    "date-fns": "2.16.1",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "6.12.0",
     "eslint-plugin-import": "^2.9.0",
-    "graphql": "^0.13.1",
-    "jest": "^22.4.0",
-    "prettier": "^1.10.2",
-    "standard-version": "^4.3.0"
+    "graphql": "15.3.0",
+    "jest": "26.5.2",
+    "prettier": "2.1.2",
+    "standard-version": "9.0.0"
   }
 }
