@@ -1,6 +1,6 @@
 {
   "name": "@serverfarm/graphql-directive",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "lib/index.js",
   "repository": "git@github.com:serverfarm/graphql-directive.git",
   "author": "Greg Bergé <greg@smooth-code.com>",
@@ -34,7 +34,8 @@
     "graphql": "15.3.0"
   },
   "dependencies": {
-    "graphql-tools": "6.2.4"
+    "@graphql-tools/schema": "^8.3.11",
+    "@graphql-tools/utils": "^8.6.10"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

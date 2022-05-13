@@ -1,6 +1,6 @@
 /* eslint-disable no-shadow */
 import url from 'url';
-import { makeExecutableSchema } from 'graphql-tools'
+import { makeExecutableSchema } from '@graphql-tools/schema'
 import { graphql } from 'graphql'
 import { addDirectiveResolveFunctionsToSchema } from './'
 

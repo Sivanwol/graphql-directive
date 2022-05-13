@@ -1,4 +1,4 @@
-import { forEachField } from 'graphql-tools'
+import { forEachField } from '@graphql-tools/utils'
 import { defaultFieldResolver } from 'graphql'
 import * as graphqlLanguage from 'graphql/language'
 import * as graphqlType from 'graphql/type'
